@@ -69,7 +69,6 @@ onUnmounted(() => {
   })
 })
 
-const cont = `<div onclick="">button</div>`
 </script>
 
 <style>

@@ -14,6 +14,4 @@ import { installComponents } from './components'
 installComponents(app)
 
 //* 注册依赖
-app.use(router)
-app.use(ElementPlus)
-app.mount('#app')
+app.use(router).use(ElementPlus).mount('#app')
